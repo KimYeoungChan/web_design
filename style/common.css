@@ -1,0 +1,113 @@
+#fullpage #section0 {
+    background-image:url(../imges/s1_bg.jpg); height:1100px;
+    background-size:cover;
+}
+#fullpage #section0 .bar {
+    border:1px solid #fff; width:223px; height:2px;
+    display:inline-block;position:absolute;
+}
+#fullpage #section0 .bar1 {top:245px; left:0;}
+#fullpage #section0 .bar2 {bottom:245px; right:0;}
+#fullpage #section0 .title {
+    width:1400px; margin:0 auto; padding: 370px 0;}
+#fullpage #section0 .title img {}
+#fullpage #section1 {
+    width:1400px; margin:0 auto;
+    position:relative;
+}
+#fullpage #section1 .title {padding-top:300px;}
+#fullpage #section1 .title img {}
+#fullpage #section1 .profile1 {
+    font-size: 1.875em; line-height: 1.5;
+    position:absolute; right:0; top:350px;
+}
+#fullpage #section1 .profile {width:33%; float:left; margin-top:170px;}
+#fullpage #section1 .profile h2 {
+    font-size:2.5em; font-weight:bold;
+    margin-bottom:50px;
+}
+#fullpage #section1 .profile p {color:#aaa; font-size:1.25em; line-height:1.5;}
+#fullpage #section2 {
+    width:1400px; margin:0 auto;
+}
+#fullpage #section2 .title {padding-top:30px;}
+#fullpage #section2 .design_tab {
+    text-align: center;
+    margin-top:100px;
+}
+#fullpage #section2 .design_tab a {
+    font-size:1.5em; font-weight:bold;
+    border:3px solid #333; border-radius:20px;
+    padding:20px 30px; margin-right:50px; 
+}
+#fullpage #section2 .design_tab a:hover {background-color:#000; color:#fff;}
+#fullpage #section2 .design_tab a:last-child {margin-right:0;}
+#fullpage #section2 .web_design {text-align: center; margin-top: 100px;}
+#fullpage #section2 .web_design a {
+    height: 250px;
+    display: block;
+    width:22%;
+    margin-left:3%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position:top;
+    background-size:80%;
+    position:relative;
+    border-radius:20px;
+}
+#fullpage #section2 .web_design a .info {
+    width:100%; position:absolute; top:0; height:250px;
+    background-color:rgba(0,0,0,0.5);
+    background-size:cover;
+    background-position:center;
+    border-radius:20px;
+}
+#fullpage #section2 .web_design a .info span {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 85px;
+    font-size: 1.5em;
+}
+#fullpage #section2 .web_design a:nth-child(1) {background-image:url(../imges/web1.png);}
+#fullpage #section2 .web_design a:nth-child(2) {background-image:url(../imges/web2.png);}
+#fullpage #section2 .web_design a:nth-child(3) {background-image:url(../imges/web3.png);}
+#fullpage #section2 .web_design a:nth-child(4) {background-image:url(../imges/web3.png);}
+#fullpage #section2 .other_desgin {margin-top: 100px;}
+#fullpage #section2 .other_desgin a {
+    height: 250px;
+    display: block;
+    width:22%;
+    margin-left:3%;
+    background-repeat: no-repeat;
+    float: left;
+    background-position:top;
+    background-size:80%;
+    margin-bottom:50px;
+    position:relative;
+}
+#fullpage #section2 .other_desgin a .info1 {
+    text-align:center;
+    width:100%; position:absolute; top:0; height:250px;
+    background-color:rgba(0,0,0,0.5);
+    background-size:cover;
+    background-position:center;
+    border-radius:20px;
+}
+#fullpage #section2 .other_desgin a .info1 span {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 85px;
+    font-size: 1.5em;
+}
+#fullpage #section2 .other_desgin a:nth-child(1) {background-image:url(../imges/other_design1.png);}
+#fullpage #section2 .other_desgin a:nth-child(2) {background-image:url(../imges/other_design2.png);}
+#fullpage #section2 .other_desgin a:nth-child(3) {background-image:url(../imges/other_design3.png);}
+#fullpage #section2 .other_desgin a:nth-child(4) {background-image:url(../imges/other_design4.png);}
+#fullpage #section2 .other_desgin a:nth-child(5) {background-image:url(../imges/other_design5.png);}
+#fullpage #section2 .other_desgin a:nth-child(6) {background-image:url(../imges/other_design6.png);}
+#fullpage #section2 .other_desgin a:nth-child(7) {background-image:url(../imges/other_design7.png);}
+#fullpage #section2 .other_desgin a:nth-child(8) {background-image:url(../imges/other_design8.png);}

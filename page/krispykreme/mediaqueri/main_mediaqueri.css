@@ -1,0 +1,75 @@
+/*desktop*/
+@media screen and (max-width:1500px){
+}
+@media screen and (max-width:1400px){
+    #wrap .home_service_bg .home_service,#wrap .menu_wrap,#wrap .event_bg .event_wrap,#wrap .store_wrap .store,#wrap .brand_info_wrap .brand_info,#wrap .brand_info_wrap .info_box_bg .info_box_wrap ,
+    #wrap .event_bg .event_wrap {width:100%;}
+    #wrap .brand_info_wrap .brand_info .info_bg {margin-left:0;}
+    #wrap .store_wrap .store h2 {padding-top: 100px;}
+    #wrap .home_service_bg .home_service .home_service_icon {left: 29%;}
+    #wrap .home_service_bg .home_service .detailview {left: 29%;}
+}
+/*tablet*/
+@media screen and (max-width:1240px){
+    #wrap .event_bg .event_wrap ul .event_box a p {font-size: 1.0em;}
+    #wrap .event_bg .event_wrap ul .event_box a img {width:200px;}
+    #wrap .store_wrap .store h2 {padding-top: 45px;}
+    #wrap .store_wrap .store > p {margin-top: 30px;}
+    #wrap .store_wrap .store #seacrFrm {    margin-left: 27%;}
+}
+@media screen and (max-width:912px){
+    #wrap .event_bg .event_wrap ul .event_box {width: 50%;}
+    #wrap .event_bg .event_wrap ul .event_box a img {width: 186px;}
+    #wrap .brand_info_wrap .brand_info .info_txt {float:none;}
+    #wrap .brand_info_wrap .brand_info .info_bg {background-size:contain; width:100%;}
+}
+/*desktop end*/
+/*tablet*/
+@media screen and (max-width:1024px){
+    #wrap .visual .swiper-container .swiper-wrapper {height:400px;}
+    #wrap .home_service_bg .home_service .detailview {right: 30%;}
+}
+/*tablet end*/
+/*구형tablet*/
+@media screen and (max-width:800px){
+    #wrap .menu_wrap .menu .menu_list li {width:     33%;}
+    #wrap .home_service_bg .home_service .detailview {     top: 45%;
+    right: 23%;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap ul li {margin-top:0;
+        margin-left:0; width: 50%;margin-bottom: 2%;}
+    #wrap .store_wrap .store #seacrFrm {    margin-left: 20%;}
+    #wrap .store_wrap .store h2 {font-size: 2.0em; padding-top: 35px;}
+    #wrap .store_wrap .store > p {margin-top:20px;}
+    #wrap .store_wrap .store #seacrFrm {width: 452px;     margin-left: 23%;}
+    #wrap .store_wrap .store #seacrFrm {display:none;}
+}
+/*구형tablet end*/
+@media screen and (max-width:589px) {
+    #wrap .store_wrap .store #seacrFrm {margin-left: 11%;}
+     #wrap .store_wrap .store #seacrFrm fieldset p input{margin-top: 0; width: 249px;}
+}
+/*mobile*/
+@media screen and (max-width:450px){
+    #wrap .visual .swiper-container .swiper-wrapper {height:300px;}
+    #wrap .home_service_bg .home_service .detailview {
+       display:none;
+    }
+    #wrap .home_service_bg .home_service .home_service_icon i {
+        display:none;
+    }
+    #wrap .event_bg .event_wrap ul .event_box {float:none; width:100%;}
+    #wrap .event_bg .event_wrap ul .event_box a p {margin-top: 10px;}
+    #wrap .menu_wrap .menu .menu_list li {width: 50%;}
+    #wrap .brand_info_wrap .brand_info .info_txt {float:none; width:100%;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap ul li {float:none;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap {margin-top:0;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap ul li {width:100%;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap ul li h3 {margin-top:0;}
+    #wrap .brand_info_wrap .info_box_bg .info_box_wrap ul li p {    margin-top: 23px;}
+    #wrap .store_wrap .store h2 {font-size: 1.0em;}
+    #wrap .store_wrap .store > p {font-weight:normal;}
+    #wrap .store_wrap .store #seacrFrm {    width: 299px;     height: 45px;
+    margin-left: 15%; margin-top:0;}
+    #wrap .store_wrap .store #seacrFrm fieldset p input{margin-top: 0; width: 249px;}
+}
+/*mobile end*/

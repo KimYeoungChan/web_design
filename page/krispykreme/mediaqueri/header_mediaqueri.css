@@ -1,0 +1,38 @@
+/*desktop*/
+@media screen and (max-width:1400px){
+    #wrap header {width:100%;}
+}
+/*desktop end*/
+/*tablet*/
+@media screen and (max-width:1034px){
+    #wrap header .h_right .util_wrap {display:none;}
+    #wrap header .h_right nav {display:none;}
+    #wrap header .h_right .search {display:none;}
+    #wrap header .tablet_nav {position:relative;}
+    #wrap header .tablet_nav .tablet_navbar {
+        display:block; width:40px; height:40px; position:absolute; right:10px;
+    }
+    #wrap header .tablet_nav .tablet_navbar span {
+    background-color:#00704a;  display: block;
+    height: 5px; width: 100%;
+    position: absolute; right:0; 
+    }
+    #wrap header .tablet_nav .tablet_navbar span:nth-child(1) {top:30px;}
+    #wrap header .tablet_nav .tablet_navbar span:nth-child(2) {top:40px;}
+    #wrap header .tablet_nav .tablet_navbar span:nth-child(3) {top:50px;}
+    #wrap header .tablet_nav .tablet_menu {
+        display:block; 
+    }
+    
+}
+/*tablet end*/
+/*구형tablet*/
+@media screen and (max-width:800px){
+    
+}
+/*구형tablet end*/
+/*mobile*/
+@media screen and (max-width:450px){
+    
+}
+/*mobile end*/

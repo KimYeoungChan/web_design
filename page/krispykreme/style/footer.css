@@ -1,0 +1,31 @@
+footer {width:1400px; margin:0 auto; padding-top: 100px;}
+footer .ft_top { border-bottom:1px solid #000; overflow:hidden;padding-bottom: 50px;}
+footer .ft_top .ft_link {float:left;margin-top: 20px;}
+footer .ft_top .ft_link a {
+    border-right:1px solid #fff;
+    padding: 0 10px; 
+}
+footer .ft_top .ft_link a:last-child{border:0;}
+footer .ft_top .ft_link .pst {color:#00704a; font-weight:bold}
+footer .ft_top .family_site {
+    float: right;
+    margin-top: 15px;}
+footer .ft_top .family_site p {display:inline-block;margin-right: 15px;}
+footer .ft_top .family_site p select {
+    border:1px solid #aaa; width:200px; padding: 5px 10px;
+}
+footer .ft_top .family_site p select option {}
+footer .ft_top .family_site button {
+    font-weight: bold; border-radius:10px; width:70px; height:30px;
+    background-color: #333;
+}
+footer .ft_top .family_site button a {color:#fff;}
+footer .ft_top .family_site button a:hover {color:#333;}
+footer .ft_btm {overflow:hidden; padding-bottom: 50px;}
+footer .ft_btm .btm_left {float:left;}
+footer .ft_btm .btm_left p {
+    line-height:1.5; margin-top:20px;
+}
+footer .ft_btm .btm_right {float:right; margin-top:50px; }
+footer .ft_btm .btm_right a {margin-right:15px;}
+footer .ft_btm .btm_right a img {width:30px; height:30px;}

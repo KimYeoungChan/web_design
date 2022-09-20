@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>youngchan's portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81cade384b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/common.css">
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/dist/fullpage.js"></script>
+    <style>
+        .fp-auto-height.fp-section{height:auto !important;}
+    </style>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section active" id="section0">
+            <span class="bar bar1"></span>
+            <div class="title"><img src="imges/s1_title.png" alt="portfolio"></div>
+            <span class="bar bar2"></span>
+        </div>    
+        <div class="section" id="section1">
+            <div class="title"><img src="imges/s2_title_1.png" alt="profile"></div>    
+            <div class="profile2 profile">
+                <h2>Education</h2>
+                <p class="profile1">1997.02.05<br>010 - 4059 - 5506<br>beethu@naver.com</p>
+                <p>2015.03 인제고등학교 졸업<br>2020.09 그린컴퓨터아카데미<br>UI/UX 웹디자인 과정 이수</p>
+            </div><!--education_wrap-->
+            <div class="profile3 profile">
+                <h2>Certificate</h2>
+                <p>2020.07 GTQ 그래픽기술자격 1급<br>2020.09 웹디자인 기능사<br>2008.06 ITQ 아래한글 B등급<br>2008.08 ITQ 한글파워포인트 B등급</p>
+            </div><!--certificate_wrap-->
+            <div class="profile4 profile">
+                <h2>Design Skills</h2>
+                <img src="imges/ai.png" alt="일러스트">
+                <img src="imges/psd.png" alt="포토샵">
+                <img src="imges/after_effect_img.png" alt="after effect">
+                <img src="imges/html_img.png" alt="html5">
+                <img src="imges/css_img.png" alt="css">
+                <img src="imges/javascript_img.png" alt="javascript">
+                <img src="imges/bootstrap_img.png" alt="브라켓">
+            </div><!--certificate_wrap-->
+        </div>
+        <div class="section" id="section2">
+               <div class="title"><img src="imges/s3_title_1.png" alt="project"></div>
+                <div class="design_tab">
+                    <a href="#">WEB DESIGN</a>
+                    <a href="#">OTHER DESIGN</a>
+                </div><!--design_tab-->
+                    <div class="web_design">
+                        <a href="page/sub1.html">
+                            <p class="info"><span>krispykreme 리뉴얼 프로젝트<br>작업프로그램:psd,html,css,js</span></p>
+                        </a>    
+                        <a href="/page/sub2.html">
+                            <p class="info"><span>INFINITI 리뉴얼 프로젝트<br>작업프로그램:psd,html,css,js</span></p>
+                        </a>    
+                        <a href="/page/sub3.html">
+                            <p class="info"><span>Rush 리뉴얼 프로젝트<br>작업프로그램:psd,html,css,js</span></p>
+                        </a>    
+                    </div><!--web_design-->
+                <div class="other_desgin">
+                    <a href="/page/detail1.html">
+                        <p class="info1"><span>벚꽃립스틱 상세페이지<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail2.html">
+                        <p class="info1"><span>선크림 프로모션<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail3.html">
+                        <p class="info1"><span>아벤느 크림 상세페이지<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail4.html">
+                        <p class="info1"><span>베르나르 베르베르 프로모션<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail5.html">
+                        <p class="info1"><span>grn 그린이 상세페이지<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail6.html">
+                        <p class="info1"><span>황제의 딸 상세페이지<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail7.html">
+                        <p class="info1"><span>아벤느 이드랑스 에센스-인-로션<br>작업프로그램:psd</span></p>
+                    </a>
+                    <a href="/page/detail8.html">
+                        <p class="info1"><span>초록이 11플러스 애프터 녹차케티킨<br>작업프로그램:psd</span></p>
+                    </a>
+                </div>    
+            </div><!--section2-->         
+    </div><!--fullpage-->
+    <script>
+    
+    //전체 레이아웃
+    var myFullpage = new fullpage('#fullpage');
+    
+    //web_design 숨기기
+    $('.other_desgin').hide();
+    // contents_menu
+    $('.design_tab a').eq(0).click(function(e){
+        e.preventDefault();
+        $('.web_design').show();
+        $('.other_desgin').hide();
+    })
+    
+    //web 영역
+    $('.info').hide();
+    //web_design a에 마우스를 올리면 반투명 활성화
+    $('.web_design').find('a').mouseenter(function(){
+        $(this).find('.info').show();
+    }).mouseleave(function(){
+        $(this).find('.info').hide();
+    })
+    
+    //other 영역    
+    $('.info1').hide();
+    $('.other_desgin').find('a').mouseenter(function(){
+        $(this).find('.info1').show();
+    }).mouseleave(function(){
+        $(this).find('.info1').hide();
+    })
+        
+    $('.design_tab a').eq(1).click(function(e){
+        e.preventDefault();
+        $('.other_desgin').show();
+        $('.web_design').hide();
+    })
+    </script>
+</body>
+</html>

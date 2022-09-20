@@ -1,0 +1,19 @@
+/*desktop*/
+@media screen and (max-width:1400px){
+   footer {width:100%;}
+}
+/*desktop end*/
+/*tablet*/
+@media screen and (max-width:1034px){
+    footer .ft_top .ft_link {float:none;}
+    footer .ft_top .family_site {float:none;}
+}
+/*tablet end*/
+/*구형tablet*/
+@media screen and (max-width:800px){
+}
+/*구형tablet end*/
+/*mobile*/
+@media screen and (max-width:450px){
+}
+/*mobile end*/

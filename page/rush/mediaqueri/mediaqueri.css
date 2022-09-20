@@ -1,0 +1,62 @@
+@media screen and (max-width:1400px){
+    #wrap .contents_wrap {width:100%;}
+    
+}
+/*desktop*/
+@media screen and (max-width:1100px){
+    #wrap .h_wrap header,
+    #wrap .visual .slide .slide_txt,
+    #wrap .weekly_best_wrap,
+    #wrap .review_wrap,
+    #wrap .ft_wrap footer {width:100%;}
+    #wrap .visual .slide {height:600px;}
+    #wrap .ft_wrap footer .ft_left {float:inherit;}
+}
+/*desktop end*/
+/*tablet*/
+@media screen and (max-width:1024px){
+    #wrap .h_wrap header .nav {display:none;}
+    #wrap .visual .slide {height:500px;}
+    #wrap .contents_wrap .contents_left, #wrap .contents_wrap .contents_right {float:inherit; width:100%;}
+    #wrap .review_wrap .col {width:50%;}
+    #wrap .review_wrap .col3 {display:none; }
+    #wrap .review_wrap .col .area {float:inherit;}
+    #wrap .spa_wrap .spa_bg {height:500px;}
+}
+/*tablet end*/
+/*구형 tablet*/
+@media screen and (max-width:800px){
+    #wrap .h_wrap header .gnb {display:none;}
+    #wrap .h_wrap header .mobile_nav {display:block;}
+    #wrap .h_wrap header .mobile_nav .mobile_menu {display:block;}
+    #wrap .visual .slide {height:400px;}
+    #wrap .visual .slide .slide_txt h2 {font-size:3.0em; padding-top:80px;}
+    #wrap .visual .slide .slide_txt p {font-size:1.4em;}
+    #wrap .weekly_best_wrap .weekly_best li {width:50%; margin-left:0;}
+    #wrap .weekly_best_wrap .weekly_best li:nth-child(3) {display:none;}
+    #wrap .review_wrap .col {width:100%; float:inherit;}
+    #wrap .review_wrap .col .area img {float:inherit;}   
+    #wrap .review_wrap .col .area .pro_txt {float:inherit;}
+    #wrap .spa_wrap .spa_bg {height:400px;}
+    #wrap .spa_wrap .spa_txt {top: 12%;left: 26%;}
+        #wrap .spa_wrap .spa_txt h2 {font-size: 1.5em;}
+    #wrap .about_rush_wrap .about_rush_bg {height:400px;}
+    #wrap .about_rush_wrap .txt {top:20%; left:0;}
+    #wrap .about_rush_wrap .txt h2 {font-size:1.5em;}
+    #wrap .about_rush_wrap .txt p {display:inline-block;}
+    #wrap .review_wrap .col2 {margin-top:40px;}
+}
+/*구형 tablet end*/
+/*mobile*/
+@media screen and (max-width:450px){
+    #wrap .visual .slide {height:300px;}
+    #wrap .visual .slide .slide_txt h2 {font-size: 2.5em; padding-top:60px;}
+    #wrap .visual .slide .slide_txt p {font-size:1.3em;}
+    #wrap .weekly_best_wrap .weekly_best li {width:100%;}
+    #wrap .contents_wrap .contents_left .box {float:inherit; width:100%;}
+    #wrap .spa_wrap .spa_bg {height:300px;}
+    #wrap .spa_wrap .spa_txt {top: 15%;left: 14%;}
+    #wrap .about_rush_wrap .about_rush_bg {height:300px;}
+
+}
+/*mobile end*/

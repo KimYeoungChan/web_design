@@ -1,0 +1,11 @@
+* {box-sizing: border-box;}
+html,body {font-family: 'Nanum Gothic', sans-serif;}
+legend {display:none;}
+html,body,h1,h2,h3,h4,h5,h6,p,span, strong, em, ul,ou,li,a,
+table,tr,th,td,form,input,legend,fieldset,button,option,select,
+img,div,header,section,aside,article,footer,nav,video {
+    font-size:100%; font-weight:normal; font-style:normal;
+    padding:0; margin:0; line-height:1.0;
+    border:0; border-collapse:collapse; list-style:none;
+    text-decoration:none; color:#333;
+}

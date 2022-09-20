@@ -1,0 +1,24 @@
+/*desktop*/
+@media screen and (max-width:1400px){
+    #wrap .contents {width:100%;}
+}
+/*desktop end*/
+/*tablet*/
+@media screen and (max-width:1330px){
+}
+/*tablet end*/
+/*구형tablet*/
+@media screen and (max-width:800px){
+    #wrap .contents .pro_detail .detail_img {float:inherit;}
+    #wrap .contents .pro_detail .detail_txt {float:inherit; margin-left:0; width:100%;}
+    #wrap .contents .pro_detail table {float:inherit; margin-left:0; margin-top: 7%;     width: 100%;
+}
+    #wrap .contents .category li {    margin-bottom: 2%;}
+}
+/*구형tablet end*/
+/*mobile*/
+@media screen and (max-width:450px){
+    #wrap .contents aside {float:none;     width: 100%;
+    text-align: center; margin-bottom: 20px;}
+}
+/*mobile end*/

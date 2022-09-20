@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>인피니티 코리아</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!--반응형-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/mediaqueri.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="script/slick/slick.css">
+    <link rel="stylesheet" href="script/slick/slick-theme.css">
+    <!--JQ-->
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/81cade384b.js" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--slick-->
+    <script type="text/javascript" src="script/slick/slick.min.js"></script>
+    <style>
+        .card-header {background:none; border:none;}
+        .card {border:none;}
+    </style>
+</head>
+<body>
+    <header class="mx-auto">
+        <h1 class="position-absolute"><a href="#"><img src="imges/Infiniti-logo-black_Desktop.png" alt="INFINITI"></a></h1>
+        <nav class="d-inline-block">
+            <ul class="nav justify-content-center mt-4">
+                <li class="nav-item"><a href="#" class="nav-link">VEHICLES</a>
+                    <ul class="sub sub1">
+                        <li><a href="#">세단</a></li>
+                        <li><a href="#">쿠페</a></li>
+                        <li><a href="#">크로스 오버</a></li>
+                        <li><a href="#">SUV</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">OWNERS</a>
+                    <ul class="sub sub2">
+                        <li><a href="#">보증 프로그램</a></li>
+                        <li><a href="#">24시간 서비스</a></li>
+                        <li><a href="#">차량 서비스</a></li>
+                        <li><a href="#">무상 서비스</a></li>
+                        <li><a href="#">인피니티 부품</a></li>
+                        <li><a href="#">서비스 자료</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">ABOUT INFINITI</a>
+                    <ul class="sub sub3">
+                        <li><a href="#">인피니트 네트워크</a></li>
+                        <li><a href="#">뉴스 &amp; 이벤트</a></li>
+                        <li><a href="#">인피니트 소개</a></li>
+                        <li><a href="#">고객 지원 센터</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">INFINITI NOW</a></li>
+            </ul>
+        </nav>
+        <!--모바일-->
+        <div class="mobile_nav">
+            <a href="#" class="moblie_navbar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div><!--mobile_nav-->
+        <nav class="mobile_menu">
+            <ul>
+                <li><a href="#">VEHICLES</a>
+                    <ul class="mobile_sub mobile_sub1">
+                        <li><a href="#">세단</a></li>
+                        <li><a href="#">쿠페</a></li>
+                        <li><a href="#">크로스 오버</a></li>
+                        <li><a href="#">SUV</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">OWNERS</a>
+                    <ul class="mobile_sub mobile_sub2">
+                        <li><a href="#">보증 프로그램</a></li>
+                        <li><a href="#">24시간 서비스</a></li>
+                        <li><a href="#">차량 서비스</a></li>
+                        <li><a href="#">무상 서비스</a></li>
+                        <li><a href="#">인피니티 부품</a></li>
+                        <li><a href="#">서비스 자료</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ABOUT INFINITI</a>
+                    <ul class="mobile_sub mobile_sub3">
+                        <li><a href="#">인피니트 네트워크</a></li>
+                        <li><a href="#">뉴스 &amp; 이벤트</a></li>
+                        <li><a href="#">인피니트 소개</a></li>
+                        <li><a href="#">고객 지원 센터</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">INFINITI NOW</a></li>
+            </ul>
+        </nav><!--mobile_menu-->
+        <div class="sub_bg"></div>
+        <div class="gnb position-absolute">
+            <a href="#">로그인</a>    
+            <a href="#">회원가입</a>    
+        </div><!--gnb-->
+    </header>
+    <div id="slideWrap" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner slide_wrap">
+            <div class="carousel-item active slide slide1"></div>
+            <div class="carousel-item slide slide2"></div>
+            <div class="carousel-item slide slide3"></div>
+        </div>
+        <a class="carousel-control-prev" href="#slideWrap" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slideWrap" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div id="s1_wrap" class="container-fluid mt-5">
+        <div class="card">
+           <div class="card-header desgin_title">INFINITI DESIGN</div>
+            <div class="card-body design design1">
+                <div class="txt">
+                    <p>인피니티 디자인의 본질</p>
+                    <p>인피니티는 서로 상반된 요소들을 조화롭게 만드는 것에 집중합니다.<br>"강력한 우아함"은 인피니티 철학의 핵심입니다.<br>영감은 예술이나 시를 통해 얻을 수 있지만<br>그것을 현실에서 구현하려면 강력함과 확고함이 수반되어야 합니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body design design2">
+               <div class="txt">
+                   <p>DESIGNED TO PERFORM</p>
+                    <p>강력함을 표현하는 디자인은 인피니티의 트레이드마크입니다.<br>그것은 스타일과 존재감을 통해 나타납니다.<br>자동차의 디자인은 완벽한 조화를 이루어야 합니다.<br>실루엣에서 스탠스에 이르기까지 인피니티는<br>모든 주행에서 완벽한 성능을 발휘할 수 있도록 디자인됩니다.</p>
+               </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body design design3">
+               <div class="txt">
+                   <p>ADVANCED INTERIOR ARTISTRY</p>
+                    <p>형태와 소재, 디테일, 디자인 요소 등 모든 면에서 최고를 지향하는<br>인피니티의 인테리어는 따뜻하고 고급스러운 분위기를 연출합니다. </p>
+               </div>
+            </div>
+        </div>
+    </div><!--s1_wrap-->
+    <div id="s2_wrap" class="container">
+      <div class="card-header featured_title">FEATURED MODE</div>
+       <div class="card-deck">
+            <div class="card">
+                <div class="card-body pro pro1">
+                    <img class="card-img-top" src="imges/senans.jpg" alt="design">
+                    <p class="card-title txt tx1"><span class="car_name">2020 인피니티 Q50</span><br>400마력 3.0 리터 트윈 터보 V6<br>
+                    <a href="#" class="price stretched-link">￦ 41,000,000 ~</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body pro pro2">
+                <img class="card-img-top" src="imges/q60.png" alt="design">
+                <p class="card-title txt tx2"><span class="car_name">2020 인피니티 Q60</span><br>300마력 3.0 리터 트윈 터보 V6<br>
+                <a href="#" class="price stretched-link">￦ 59,000,000 ~</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body pro pro3">
+                <img class="card-img-top" src="imges/suv1.png" alt="design">
+                <p class="card-title txt txt3"><span class="car_name">2020 인피니티 QX60</span><br>295마력 3.5 리터 V6<br>
+                <a href="#" class="price stretched-link">￦ 60,000,000 ~</a></p>
+            </div>
+            </div>
+       </div>
+    </div><!--s2_wrap-->
+    <div id="s3_wrap" >
+      <div class="video_wrap">
+           <video autoplay muted loop>
+                <source src="video/banner_video.mp4" type="video/mp4">
+            </video>
+       <div class="card">
+           <div class="card-body infiniti_now_wrap">
+               <h4 class="card-title now_title">INFINITI NOW</h4>
+               <p class="card-text now_txt">상황이 변하고 우리 모두가 새로운 정상으로 정착함에 따라, 여러분이 기대할 수 있는 서비스와 사치를 제공하는 우리의 헌신이라는 한 가지 상수가 있다.<br>지금 바로 INFINITI NOW를 확인하십시오. 향상된 INFINITI 소매업체 환경을 통해 더 나은 서비스를 제공하십시오.<br>새로운 건강 지향적인 전시실 관행부터 편리한 차량 제공 서비스까지, 이것은 앞으로 나아갈 길에 대해 재구성한 인피니티의 전문가 수준의 고객 관리다.</p>
+           </div>
+       </div>
+        </div>
+    </div><!--s3_wrap-->
+    <div id="s4_wrap">
+        <div class="card event_wrap">
+            <div class="card-body event">
+                <div class="card-header event_title">EVENT</div>
+                <div class="card-deck">
+                    <div class="card event_box">
+                        <div class="card-body eve eve1">
+                            <img class="card-img-top" src="imges/event6.jpg" alt="event1">
+                            <h4 class="eve_txt">인피니티 코리아,홀인원 경품<br>차량으로 프리미엄 중형<br>SUV QX50 제공</h4>
+                            <p>2019년5월31일 – 인피니티 코리아(대표: 강승원)는 한국여자골프(KLPGA) 제9회 롯데 칸타타 여자오픈에 홀인원 경품 차량으로 프리미엄 중형 SUV 더 올-뉴 QX50(THE ALL-NEW QX50, 이하 QX50)을 제공한다고 밝혔다.</p>
+                            <a href="#" class="stretched-link">READ MORE<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card event_box">
+                        <div class="card-body eve eve2">
+                            <img class="card-img-top" src="imges/event2.png" alt="event2">
+                            <h4 class="eve_txt">종이 자동차, <br>INFINITI CARIGAMI</h4>
+                            <p>집에서 편안하게 두 가지 대표적인<br>인피니티 모델을 만들어보세요.</p>
+                            <a href="#" class="stretched-link">READ MORE<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card event_box">
+                        <div class="card-body eve eve3">
+                            <img class="card-img-top" src="imges/event4.jpg" alt="event3">
+                            <h4 class="eve_txt">인피니티 코리아,<br>12월 ‘연말맞이 특별프로모션’ 및 ‘겨울 서비스 캠페인’ 실시</h4>
+                            <p>2019년 12월 2일 – 인피니티 코리아<br>(대표: 강승원)는 고객 감사 이벤트의<br>일환으로 12월 한 달간 ‘연말맞이 특별 프로모션’ 및 ‘겨울 서비스 캠페인’을<br>실시한다.</p>
+                            <a href="#" class="stretched-link">READ MORE<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card event_box">
+                        <div class="card-body eve eve4">
+                            <img class="card-img-top" src="imges/event5.jpg" alt="event4">
+                            <h4 class="eve_txt">인피니티 30주년 @우주기지</h4>
+                            <p>뉴멕시코의 우주기지에서 기념하는<br>인피니티의 과거,현재와 미래에 동참<br>하세요.</p>
+                            <a href="#" class="stretched-link">READ MORE<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!--card-deck-->
+            </div><!--envet-->
+        </div><!--event_wrap-->
+    </div><!--s4_wrap-->
+    <div id="ft_wrap" class="mt-5">
+        <footer>
+            <div class="ft_top">
+                <div class="row mx-auto">
+                    <div class="col">
+                        <h5>VEHICLES</h5>
+                        <ul class="list-group">
+                            <li class="list-groupitem"><a href="#">세단</a></li>
+                            <li class="list-groupitem"><a href="#">쿠페</a></li>
+                            <li class="list-groupitem"><a href="#">크로스 오버 및 SUV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>OWNERSHIP</h5>
+                        <ul class="list-group">
+                            <li class="list-groupitem"><a href="#">보증프로그램</a></li>
+                            <li class="list-groupitem"><a href="#">24시간 긴급 출동 서비스</a></li>
+                            <li class="list-groupitem"><a href="#">차량 관리 서비스 프로그램</a></li>
+                            <li class="list-groupitem"><a href="#">보빌리티 개런티</a></li>
+                            <li class="list-groupitem"><a href="#">사고 차량 무상 견인 서비스</a></li>
+                            <li class="list-groupitem"><a href="#">인피니티 부품 관련 정보</a></li>
+                            <li class="list-groupitem"><a href="#">서비스 자료/ 장비 / 교육 제공</a></li>
+                            <li class="list-groupitem"><a href="#">차량 부품 취급 설명서</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>COUSTOMER</h5>
+                        <ul class="list-group">
+                            <li class="list-groupitem"><a href="#">차량 부품 취급 설명서</a></li>
+                            <li class="list-groupitem"><a href="#">뉴스 &amp; 이벤트</a></li>
+                            <li class="list-groupitem"><a href="#">인피니트 소개</a></li>
+                            <li class="list-groupitem"><a href="#">고객 지원 센터</a></li>
+                            <li class="list-groupitem"><a href="#">법인 차량</a></li>
+                            <li class="list-groupitem"><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>INFINITI SOCIAL</h5>
+                        <ul class="list-group sns_wrap">
+                            <li class="list-groupitem"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="list-groupitem"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li class="list-groupitem"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ft_btm">
+               <div class="copy_right list-group list-group-horizontal float-left">
+                    <a href="#" class="list-group-item">개인정보 처리방침</a>
+                    <a href="#" class="list-group-item">저작권 및 상표 정보</a>
+                    <a href="#" class="list-group-item">&copy; INFINITI 2020</a>
+               </div>
+                <div class="float-right btn-group dropup">
+                    <button type="button" class="btn text-dark bg-light" data-toggle="dropdown">한국어</button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">ENGLISH</a>
+                        <a href="#" class="dropdown-item">CHINESE</a>
+                        <a href="#" class="dropdown-item">JAPANESE</a>
+                    </div>
+                </div>
+            </div><!--ft_btm-->
+        </footer>    
+    </div><!--ft_wrap-->
+    <script>
+        
+        //슬라이드
+        $('#slideWrap').carousel({ interval:3000 });
+        
+        //sub 메뉴 숨기기
+        $('.sub').hide();
+        $('.sub_bg').hide();
+        $('.mobile_menu').hide();
+        $('.mobile_sub').hide();
+        
+        //nav에 마우스를 됬을 때 sub 나오기
+        $('nav > ul > li').mouseover(function(){
+            $('.sub').stop().slideDown();
+            $('.sub_bg').stop().slideDown();
+        }).mouseout(function(){
+            $('.sub').stop().slideUp();
+            $('.sub_bg').stop().slideUp();
+        })
+        $('.moblie_navbar').click(function(e){
+            e.preventDefault();
+            $('.mobile_menu').fadeToggle(250);
+        })
+        // sub_bg 숨기기
+        $('.mobile_menu').mouseover(function(){
+            $('.sub_bg').hide();
+        })
+        
+        $('.mobile_menu > ul > li').click(function(){
+           $(this).find('.mobile_sub').slideToggle(500)
+        })
+            
+    </script>  
+</body>
+</html>

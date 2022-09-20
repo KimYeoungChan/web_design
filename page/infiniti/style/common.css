@@ -1,0 +1,159 @@
+/*header*/
+header {width:1400px; height:100px;}
+header h1 {top:20px;}
+header h1 a img {}
+header nav {margin-left: 23%;}
+header nav > ul {}
+header nav > ul > li {}
+header nav > ul > li > a {font-weight:bold; color:#333; font-size:1.5em;}
+header nav > ul > li > a:hover {}
+header nav > ul > li > .sub {z-index:3; margin-left: 20px; position:absolute; top:100px;}
+header nav > ul > li > .sub > li {}
+header nav > ul > li > .sub > li > a {color:#fff; line-height:3.0; display:block; text-align: center; font-weight:bold;}
+header nav > ul > li > .sub > li > a:hover {text-decoration:none; background-color: #fff; color:#333;}
+header .sub_bg {
+    position:absolute; top:100px; width:100%; height:300px; left:0;
+    z-index:2; background-color:#002c5e;}
+header .gnb {right: 13.2%;
+    top: 40px;}
+header .gnb a {color:#999;margin-right: 30px;}
+header .gnb a:last-child {margin-right:0;}
+header .gnb a:hover {color:#333; text-decoration:none; font-weight:bold;}
+
+/*slide*/
+#slideWrap {}
+#slideWrap .slide_wrap {}
+#slideWrap .slide_wrap .slide {
+    cursor:pointer;
+    height:600px;
+    background-repeat:no-repeat;
+    background-size:cover; background-position:center;
+}
+#slideWrap .slide_wrap .slide1 {
+    background-image:url(../imges/slide_bg_1.jpg);
+}
+#slideWrap .slide_wrap .slide2 {
+    background-image:url(../imges/slide_bg_2.jpg);
+}
+#slideWrap .slide_wrap .slide3 {
+    background-image:url(../imges/slide_bg_3.jpg);
+}
+
+/*s1_wrap*/
+#s1_wrap {padding:0; position: inherit;}
+#s1_wrap .card {border:0;}
+#s1_wrap .card .card-header {background:none;}
+#s1_wrap .card .desgin_title {text-align:center; font-weight:bold; font-size:1.5em;     padding: 100px 0;}
+#s1_wrap .card .design {
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:100px 0;
+}
+#s1_wrap .card .design1 {
+    background-image:url(../imges/design1.jpg);
+}
+#s1_wrap .card .design .txt {width:1400px; margin:0 auto; letter-spacing: -0.5px;}
+#s1_wrap .card .design .txt p {text-align:right; color:#fff; line-height:1.5;}
+#s1_wrap .card .design .txt p:nth-child(1) {font-size:2.0em;}
+#s1_wrap .card .design2 {
+    background-image:url(../imges/design2.jpg);
+}
+#s1_wrap .card .design2 .txt p {text-align:left;}
+#s1_wrap .card .design3 {
+    background-image:url(../imges/design3.jpg);
+}
+
+/*s2_wrap*/
+#s2_wrap {max-width: 1400px !important;    padding: 100px 0;}
+#s2_wrap .featured_title {text-align:center; font-weight:bold; font-size:1.5em; padding:100px 0;}
+#s2_wrap .card-deck {text-align:center;}
+#s2_wrap .card-header {border-bottom:0; background-color:none;}
+#s2_wrap .card-deck .card .pro {cursor:pointer;}
+#s2_wrap .card-deck .card .pro img {}
+#s2_wrap .card-deck .card .pro .txt {font-size:1.2em; line-height:2.0; letter-spacing: -0.5px;}
+#s2_wrap .card-deck .card .pro .txt .car_name {color:#007fa8; font-weight:bold; font-size:1.4em;}
+#s2_wrap .card-deck .card .pro .txt .price {color:#999; letter-spacing:inherit; font-size:0.9em;}
+#s2_wrap .card-deck .card .pro .txt .price:hover {font-weight:bold;}
+
+/*s3_wrap*/
+#s3_wrap {}
+#s3_wrap .video_wrap {width:1400px; margin:0 auto;text-align:center;}
+#s3_wrap .video_wrap video {width:1400px; cursor:pointer;}
+#s3_wrap .card {text-align:center;}
+#s3_wrap .card .infiniti_now_wrap {}
+#s3_wrap .card .now_title {font-size: 2.0em; margin: 50px 0;}
+#s3_wrap .card .now_txt {line-height:1.5;}
+
+/*s4_wrap*/
+#s4_wrap {    
+    margin: 0 auto; width: 1400px;
+}
+#s4_wrap .event_wrap {}
+#s4_wrap .event_wrap .event {}
+#s4_wrap .event_wrap .event .event_title {text-align:center; font-weight:bold; font-size:2.0em; padding:50px 0;}
+#s4_wrap .event_wrap .event .card-deck {}
+#s4_wrap .event_wrap .event .card-deck .card {}
+#s4_wrap .event_wrap .event .card-deck .card .eve {}
+#s4_wrap .event_wrap .event .card-deck .card .eve img {}
+#s4_wrap .event_wrap .event .card-deck .card .eve .eve_txt {
+    font-weight:bold;     line-height: 1.3;
+    font-size: 1.4em; margin-top: 20px;
+}
+
+#s4_wrap .event_wrap .event .card-deck .card .eve p {line-height:1.5; margin:15px 0;}
+#s4_wrap .event_wrap .event .card-deck .card .eve a {
+    font-size:0.9em; color: #fff; background-color:#002c5e;
+    padding: 5px;
+}
+#s4_wrap .event_wrap .event .card-deck .card .eve a:hover {}
+#s4_wrap .event_wrap .event .card-deck .card .eve a i {color:#fff; background-color:#002c5e; margin-left:5px;}
+#s4_wrap .event_wrap .event .card-deck .card .eve a i:hover {}
+
+/*footer*/
+#ft_wrap {background-color:#333; text-align:center; width:100%;}
+#ft_wrap footer {overflow:hidden;}
+#ft_wrap footer .ft_top {border-bottom:1px solid #999;}
+#ft_wrap footer .ft_top .row {width:1400px;}
+#ft_wrap footer .ft_top .row .col {padding: 50px 0;}
+#ft_wrap footer .ft_top .row .col h5 {color:#fff;}
+#ft_wrap footer .ft_top .row .col ul { padding: 50px 0;}
+#ft_wrap footer .ft_top .row .col ul li {}
+#ft_wrap footer .ft_top .row .col ul li a {line-height:2.5;
+color:#999;}
+#ft_wrap footer .ft_top .row .col .sns_wrap {display: inline-block;} 
+#ft_wrap footer .ft_top .row .col .sns_wrap li {float: left; margin:25px;} 
+#ft_wrap footer .ft_top .row .col .sns_wrap li a {font-size:2.0em;} 
+#ft_wrap footer .ft_top .row .col ul li a:hover {color:#fff;}
+#ft_wrap footer .ft_btm {padding:20px 0; overflow:hidden;}
+#ft_wrap footer .ft_btm .copy_right {}
+#ft_wrap footer .ft_btm .copy_right a {background:none; border:none; color:#999;}
+#ft_wrap footer .ft_btm .copy_right a:hover {color:#fff;}
+#ft_wrap footer .ft_btm .float-right {
+    width:150px; position: absolute; right: 50px;
+}
+#ft_wrap footer .ft_btm .dropup .btn {}
+#ft_wrap footer .ft_btm .dropup .dropdown-menu {}
+#ft_wrap footer .ft_btm .dropup .dropdown-menu a {}
+
+/*모바일*/
+header .mobile_nav {}
+header .mobile_nav .moblie_navbar {display:none;}
+header .mobile_nav .moblie_navbar span {}
+/*mobile_menu*/
+header .mobile_menu {
+    margin-left:0;
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align:center;
+}
+header .mobile_menu > ul {}
+header .mobile_menu > ul > li {}
+header .mobile_menu > ul > li > a {}
+header .mobile_menu > ul > li > .mobile_sub {}
+header .mobile_menu > ul > li > .mobile_sub > li {}
+header .mobile_menu > ul > li > .mobile_sub > li > a {line-height:3.0;}
+
+

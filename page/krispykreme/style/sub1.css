@@ -1,0 +1,21 @@
+#wrap .contents {width:1400px; margin:0 auto; overflow:hidden;
+padding:50px 0;}
+#wrap .contents aside {
+    float:left;  width:20%;  text-align:left;
+} 
+#wrap .contents aside .txt {margin-top: 15px;} 
+#wrap .contents aside .txt h2 {} 
+#wrap .contents aside .txt h2 a {color:#00704a; font-weight: bold; font-size:2.0em;} 
+#wrap .contents aside ul {padding-top:40px;} 
+#wrap .contents aside ul li {line-height:2.0; margin-top:10px;} 
+#wrap .contents aside ul li a {color:#aaa;}
+#wrap .contents aside ul li a:hover {color:#333;}
+#wrap .contents .product {float:right; width:80%; text-align:center;}
+#wrap .contents .product .pro {}
+#wrap .contents .product .pro h3 {color:#d0112b; background-color:#eee; padding:20px 0; font-weight:bold;}
+#wrap .contents .product .pro ul {overflow:hidden; padding: 50px 0;}
+#wrap .contents .product .pro ul li {float:left; width:25%; margin-bottom:50px;}
+#wrap .contents .product .pro ul li a {}
+#wrap .contents .product .pro ul li a img {width:120px; height:120px;}
+#wrap .contents .product .pro ul li a p {font-weight:bold; line-height:1.5em;}
+#wrap .contents .product .pro ul li a p span {color:#00704a; font-weight:bold;}

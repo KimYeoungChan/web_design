@@ -1,0 +1,59 @@
+#wrap .contents {width:1400px; margin:0 auto; overflow:hidden;
+padding:50px 0;}
+#wrap .contents aside {
+    float:left;  width:20%;  text-align:left;
+} 
+#wrap .contents aside .txt {margin-top: 15px;} 
+#wrap .contents aside .txt h2 {} 
+#wrap .contents aside .txt h2 a {color:#00704a; font-weight: bold; font-size:2.0em;} 
+#wrap .contents aside ul {padding-top:40px;} 
+#wrap .contents aside ul li {line-height:2.0; margin-top:10px;} 
+#wrap .contents aside ul li a {color:#aaa;}
+#wrap .contents aside ul li a:hover {color:#333;}
+#wrap .contents .pro_detail {
+    width: 80%;
+    float: right;
+}
+#wrap .contents .pro_detail .detail_img {
+    background-image:url(../imges/donut1.png);
+    display: inline-block; width: 380px;
+    height: 370px; float:left;
+}
+#wrap .contents .pro_detail .detail_txt {float:left; text-align:left;margin-left: 60px; width:50%;}
+#wrap .contents .pro_detail .detail_txt h2 {font-weight:bold; font-size:2.0em; margin-bottom:20px;}
+#wrap .contents .pro_detail .detail_txt .eng_name {font-size:1.2em; color:#00704a;margin-bottom:20px;}
+#wrap .contents .pro_detail .detail_txt .description {color:#aaa;margin-bottom:20px;}
+#wrap .contents .pro_detail .detail_txt .price {color:#d0112b; font-weight:bold; font-size:1.5em;display: inline-block; margin-bottom:20px; margin-top: 60px;}
+#wrap .contents .pro_detail .detail_txt a {display: inline-block;
+    float: right; margin-top: 60px;
+}
+#wrap .contents .pro_detail .detail_txt a img {}
+#wrap .contents .pro_detail table {width:580px; text-align:center; float:left;     margin-left: 50px;
+    margin-top: 50px;}
+#wrap .contents .pro_detail table thead {}
+#wrap .contents .pro_detail table thead tr {}
+#wrap .contents .pro_detail table thead tr th {
+    padding: 5px 0;
+    border-right: 1px solid #dcdad3;
+    border-bottom: 1px solid #dcdad3;
+    background-color: #f4f4f2;
+}
+#wrap .contents .pro_detail table thead tr .last {border-right: none;}
+#wrap .contents .pro_detail table tbody {}
+#wrap .contents .pro_detail table tbody tr {}
+#wrap .contents .pro_detail table tbody tr td {
+    padding: 6px 0 9px 0;
+    border-right: 1px solid #dcdad3;
+}
+#wrap .contents .pro_detail table tbody tr .last {border-right:0;}
+#wrap .contents .category {
+    display:inline-block;
+    margin-left: 22%;
+    margin-top: 2%;
+}
+#wrap .contents .category li {
+    border:3px solid #aaa; border-radius:20px;  margin-right: 30px; padding: 5px;
+    float:left;
+}
+#wrap .contents .category li a {}
+#wrap .contents .category li a img {width:100px; height:100px;}
